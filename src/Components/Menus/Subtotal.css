@@ -1,0 +1,153 @@
+
+.menu-img{
+    width: 160px;
+}
+
+section{
+    position: absolute ;
+    top:0px;
+    height: 100%;
+    width:100%;
+    background-color: rgb(244, 244, 244);
+    background-color: rgba(244, 244, 244,0.6);
+   
+}
+.parent-container{
+
+
+position: relative;
+top: 133px;
+left: 353px;
+    width: 660px;
+height: 707px;
+border-radius: 6px;
+}
+.container{
+    
+    border-radius: 6px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+
+opacity: 1;
+padding: 40px;
+
+}
+.item>*{
+    margin:10px;
+}
+
+
+.veg-img{
+    
+    height: 16px;
+    width:16px;
+    
+    
+    
+}
+.add-parent{
+    position: relative;
+   margin-left: 40% ;
+    width: 92px;
+height: 92px;
+background: #192F60 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+}
+.add-child{
+    position: absolute;
+    bottom: -10px;
+    left:10px;
+    width: 200px;
+height: 29px;
+text-align: center;
+
+color:green;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.count-item{
+    width: 20px;
+   
+    
+   
+    
+}
+.minus-btn{
+color: gray;
+border:none;
+background-color: white;
+font-size: large;
+
+}
+.plus-btn{
+    color:rgb(54, 122, 54); 
+    border: none;
+    background-color: white;
+    font-size: large;
+}
+.item-name ,.item-price {
+    
+letter-spacing: 0px;
+color: #292C40;
+font-size: 18px;
+font-weight: bold;
+}
+.item-desc{
+    width:60%;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #696B78;
+}
+hr{
+    margin-bottom: 20px ;
+    margin-left: 10px;
+    
+}
+.subtotal-div{
+    
+    display: flex;
+ align-items: center;
+    text-align: left;
+    font: normal normal bold 22px/33px Poppins;
+    letter-spacing: 0px;
+    color: #292C40;
+    opacity: 1;
+    background-color: #F5F8FF;
+}
+.paynow-div{
+    flex-grow: 2;
+   text-align: center;
+   padding: 10px;
+    
+}
+.pay-now{
+    
+    width: 140px;
+height: 40px;
+background: #CE0505 0% 0% no-repeat padding-box;
+border-radius: 6px;
+
+align-items: flex-start;
+font: normal normal medium 18px/27px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+border: none;
+opacity: 1;
+
+
+}
+.price{
+    flex-grow: 1;
+   
+    text-align: left;
+}
+.subtotal-head{
+    text-align: center;
+    flex-grow: 1;
+   
+    
+    
+}

@@ -1,0 +1,265 @@
+
+.radio{
+    display: block;
+}
+
+input{
+    margin-right: 10px;
+}
+   .title-text{
+ 
+    color:#192f60;
+    font-size: 36px;
+    font-weight: bolder;
+    text-indent: 30px;   
+   }
+   .filter-headings{
+    color: #192F60;
+   font-weight:bold;
+   }
+   select{
+    height:35px;
+    width:208px;
+    border: 1px solid #8C96AB;
+opacity: 1;
+}
+input[type="checkbox"]{
+    height:18px;
+    width:18px;
+    border: 2px solid #3A5075;
+border-radius: 2px;
+opacity: 1;
+}
+input[type="radio"]{
+    height: 18px;
+    width:18px;
+    letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+}
+   .filter-article{
+    
+    top:25px;
+    line-height: 4px;
+    font-size: 15px;
+   
+    
+    padding-left: 40px;
+    padding-top:5px;
+    margin-left: 25px;
+    
+   }
+
+   .filter-criteria{
+    margin-top:30px
+}
+.filter-section-headings{
+    font-weight: 600;
+    opacity: 0.8;
+    line-height: 5px;
+}
+
+.result-article
+{
+    height: 300px;
+    width: 719px;
+    margin-left: 50px;
+
+
+}
+.ratings{
+    font-size: 10px;
+    
+}
+table{
+    margin-top: 1rem;
+}
+
+
+
+
+.result-img{
+    height:120px;
+    width:140px;
+    opacity: 1;
+    border-radius: 20px;
+    float: left;
+    margin-right: 50px;
+}
+.result-div{
+    padding:35px;    
+}
+.result-details{
+    color: #192F60;
+    margin-top: -20px;
+}
+.result-details>*:not(:first-child) {
+    text-align: left;
+    margin-top: -15px;
+}
+.result-td-1{
+font-weight: 600;
+    color: #636F88; 
+    font-size: 1rem; 
+}
+.item-type{
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;    
+font-size: 13px;
+}
+.result-td{
+    padding-left: 70px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color:#192F60;
+    opacity: 0.9;
+
+}
+
+.address-line{
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;    
+}
+.item-title{
+    color: #192F60;
+font-size:30px;
+margin-bottom: 15px;
+font-weight: 600;
+
+
+    letter-spacing: 0px;
+}
+
+.No-result{
+    height: 291px;
+    width: 791px;
+
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0,0.25);
+left: 430px;
+top:50px;
+text-align: center;
+vertical-align: middle;
+}
+
+@media (max-width:1200px){
+    .result-article
+{
+    height: 291px;
+    width: 600px;
+    margin-left: 50px;
+
+
+}
+}
+@media (max-width:500px){
+     .filter-article{
+        margin-left: 10px;
+        
+        line-height: 4px;
+        font-size: 15px;
+        width:350px;
+       
+         padding-left: 40px;
+        padding-top:5px;
+        
+        
+        
+       }
+}
+
+@media (max-width:900px){
+    .title-text{
+    
+        color:#192f60;
+        font-size: 20px;
+        font-weight: bolder;
+        text-indent: 30px;   
+        margin-top: 30px;
+       }
+       
+       .filter-article{
+        margin-left: 10px;
+        
+        line-height: 4px;
+        font-size: 15px;
+        width:260px;
+        height: 682px;
+         padding-left: 40px;
+        padding-top:5px;
+        
+        
+       }
+
+       .result-img{
+        width: 70px;
+        height: 70px;
+        opacity: 1;
+        border-radius: 20px;
+        float: left;
+        margin: 0px 20px;
+    }
+    .result-article
+{
+    
+    width: 419px;
+    height: 254px;
+    margin-top: 15px;
+    padding-top: 5px;
+
+
+}
+
+    .result-div{
+        padding:0px; 
+       height: 500px;
+          
+    }
+    .result-details{
+        color: #192F60;
+        margin-top: 30px;
+    }
+    .result-details>*:not(:first-child) {
+        text-align: left;
+        margin-top: -15px;
+    }
+    
+    .result-label1{
+        margin-left: 20px;
+    }
+    .result-td-1{
+    font-weight: 600;
+        color: #636F88; 
+        font-size: 13px; 
+    }
+    .item-type{
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;    
+    font-size: 13px;
+    }
+    .result-td{
+        padding-left: 70px;
+        font-size: 13px;
+        font-weight: bolder;
+        color:#192F60;
+        opacity: 0.9;
+    
+    }
+    .address-line{
+        letter-spacing: 0px;
+        color: #636F88;
+        opacity: 1; 
+        font-size: 12px;   
+    }
+    .item-title{
+        color: #192F60;
+    font-size:20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    
+        letter-spacing: 0px;
+    }
+}
+

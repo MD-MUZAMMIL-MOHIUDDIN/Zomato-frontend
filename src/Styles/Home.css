@@ -1,0 +1,96 @@
+*{
+    font-family: Poppins;
+}
+
+.back-wall-img{
+   background-image:url('../Assests/banner.png');    
+   
+    height: 520px;
+background-size: cover;
+}
+/*
+.signup{
+    font-size: 20px;
+    color: #fbfbfb;
+}
+*/
+.logo{
+    background-color: #fbfbfb;
+    font-size: 70px;
+    color: #EB2929;;
+    display: inline;
+    border-radius: 50%;
+    padding: 15px 30px;
+    
+}
+
+.title-restaurant{
+    font-size: 35px;
+    color: #fbfbfb;
+  
+}
+input{
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid white;
+    font-weight: 400;
+    outline: none;
+}
+
+.search{
+    min-width: 250px;
+    max-width: 400px;
+    
+}
+.items-container{
+    margin-left:10%;
+    
+}
+.item-details-info{
+    box-shadow: 0px 3px 6px #00000029;
+     height: 140px;  
+}
+
+.item-widget-title{
+font-weight: bold;
+padding-top: 5%;
+color: red;
+font-size: 26px;
+}
+
+.item-img{
+    height:140px;
+    width:160px;
+    margin-right: 25px;  
+}
+
+ @media only screen and (max-width: 992px) {
+.nav-show{
+    display: none;
+}
+.quick-subtitle{
+    font-size: 22px!important;
+}
+
+ }
+@media only screen and (max-width: 600px) {
+
+    .login-link ,.create-link{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    
+    }
+
+
+    .quick-title{
+        font-size: 32px!important;
+    }
+    .quick-subtitle{
+        font-size: 22px!important;
+    }
+}
+
+
+ 
+

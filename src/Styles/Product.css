@@ -1,0 +1,172 @@
+
+.restOverviewImgContainer {
+    height: 70vh;
+    overflow: hidden;
+    width:100vw;
+   
+}
+
+.modal {
+
+    --bs-modal-width: 80vh;
+}
+.rest-img{
+    height: 90vh;
+ width:95vw ;
+}
+
+.resOverviewBtn {
+    background-color: hsla(39,77%,83%,.411);
+    color: #192f60;
+   font-weight:bold;
+    right: 15%;
+    top: 60vh;
+}
+
+
+.react-tabs__tab {
+
+
+    position: static;
+    border: none;
+    color: #192F60;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+
+.react-tabs__tab--selected {
+
+
+    border-bottom: 2px solid #CE0505;
+    ;
+
+}
+.overview-contact {
+    margin-top: 2%;
+
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    width: auto;
+    color: #192F60;
+
+}
+.place-order {
+    position: relative;
+    bottom: 10px;
+    background-color: #CE0505;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #CE0505;
+    border-radius: 6px;
+    vertical-align: top;
+    margin-bottom: 10%;
+
+}
+.item-details {
+    margin-bottom: 40px;
+
+}
+
+.item-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-type-price {
+    text-align: left;
+    font: normal normal normal 16px/26px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+
+
+}
+
+.contact-title {
+    font-size: 20px;
+    color: #192F60;
+}
+
+#contact-no {
+    color: #F67082;
+    font-size: 18px;
+}
+
+#contact-details {
+    margin-top: 4%;
+    font-size: 18px;
+
+}
+
+.address {
+    color: #636F88;
+    font-size: 16px;
+
+}
+@media only screen and (max-width: 508px)
+{
+   
+.restOverviewImgContainer {
+    height: 70%;
+    width:100vw;
+    margin-bottom: 10%;
+    
+}
+.resOverviewBtn {
+    background-color: hsla(39,77%,83%,.411);
+    color: #192f60;
+   
+    right: 10%;
+    top: 32vh;
+}
+
+.rest-img{
+    width:100vw;
+    height: 70%;
+}
+
+
+
+
+}
+@media only screen and (min-width: 865px) and (max-width: 991px)
+{   
+    /*
+.restOverviewImgContainer {
+    height: 60vh;
+    width: 83vw;
+}
+.resOverviewBtn {
+    right: 10%;
+    top: 58%;
+}
+*/
+}
+
+
+
+/*
+media screen and (min-width: 509px) and (max-width: 864px)
+.resOverviewBtn {
+    right: 10%;
+    top: 58%;
+}   
+
+@media only screen and (min-width: 865px) and (max-width: 991px)
+.resOverviewBtn {
+    right: 10%;
+    top: 58%;
+}
+
+resOverviewBtn {
+    right: 20%;
+    top: 48%;
+}
+
+*/
